@@ -1,11 +1,58 @@
-img {
+img,
+figcaption {
   display: block;
   width: 100%;
-  max-width: 100%;
+  max-width: 250px;
   height: auto;
   margin: 0 auto;
 }
 
+figcaption {
+  font-size: 10px;
+}
+
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+header {
+  height: 80px;
+  background-color: #012030;
+  display: flex;
+  justify-content: center;
+  color: #dafdba;
+  align-items: center;
+  border-bottom: 5px double #9aeba3;
+}
+
+p {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 500px;
+  text-align: justify;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+button {
+  height: 40px;
+  width: 50%;
+  background: linear-gradient(#012030 10%, #13678a 90%, #45c4b0);
+  color: #9aeba3;
 }

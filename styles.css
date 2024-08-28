@@ -14,7 +14,10 @@ figcaption {
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
-  margin-bottom: 20px;
+}
+
+body {
+  background-color: #fefae0;
 }
 
 header {
@@ -52,7 +55,11 @@ a {
 
 button {
   height: 40px;
-  width: 50%;
+  max-width: 50%;
   background: linear-gradient(#012030 10%, #13678a 90%, #45c4b0);
   color: #9aeba3;
+}
+
+img {
+  border-radius: 2.5px;
 }
